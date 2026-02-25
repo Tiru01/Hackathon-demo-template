@@ -1,0 +1,33 @@
+# ============================================
+# Hackathon Demo Requirements File (Example)
+# ============================================
+# ⚠️ IMPORTANT:
+# This is a SAMPLE requirements.txt file.
+# Replace these dependencies with the actual
+# libraries required for your project.
+#
+# Make sure to:
+# 1. Include ONLY libraries your project uses
+# 2. Pin exact versions (recommended)
+# 3. Test in a clean virtual environment
+#
+# Example format:
+# package-name==x.y.z
+#
+# ============================================
+
+
+streamlit==1.35.0
+pandas==2.2.2
+python-dotenv==1.0.1
+requests==2.32.3
+asyncpg==0.29.0
+chainlit==2.8.3
+semantic-kernel==1.37.0
+mammoth==1.11.0
+
+
+# ============================================
+# Teams: Replace this file with your actual
+# dependencies before final submission.
+# ============================================
