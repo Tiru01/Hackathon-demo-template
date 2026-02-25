@@ -118,7 +118,7 @@ The following files **must be present** in every submission:
 -  Clear entry point inside `src/`
   
 All other folders (e.g., `data/`, `tests/`, `notebooks/`, etc.) may vary depending on the project.
-Submissions missing mandatory files may not be evaluated.
+**Submissions missing mandatory files may not be evaluated.**
 
 ---
 
