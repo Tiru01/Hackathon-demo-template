@@ -102,10 +102,6 @@ autonomous-data-agent/
 │   │   └── learning_agent.py
 │   └── utils/
 │       └── config.py
-│
-├── architecture/          # Mandatory (must include architecture diagram)
-│   └── architecture.png
-│
 ├── data/                  # Optional (if sample/test data is required)
 │   └── sample_dataset.csv
 ```
@@ -120,8 +116,7 @@ The following files **must be present** in every submission:
 - `requirements.txt` (or `package.json` for Node projects)
 - `.env.example`
 -  Clear entry point inside `src/`
-- `architecture/architecture.png` (or equivalent flow diagram)
-
+  
 All other folders (e.g., `data/`, `tests/`, `notebooks/`, etc.) may vary depending on the project.
 Submissions missing mandatory files may not be evaluated.
 
