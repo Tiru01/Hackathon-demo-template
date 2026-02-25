@@ -119,11 +119,10 @@ The following files **must be present** in every submission:
 - `README.md`
 - `requirements.txt` (or `package.json` for Node projects)
 - `.env.example`
-- Clear entry point inside `src/`
-- `architecture/architecture.png` (or equivalent diagram)
+-  Clear entry point inside `src/`
+- `architecture/architecture.png` (or equivalent flow diagram)
 
 All other folders (e.g., `data/`, `tests/`, `notebooks/`, etc.) may vary depending on the project.
-
 Submissions missing mandatory files may not be evaluated.
 
 ---
