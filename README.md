@@ -114,6 +114,12 @@ autonomous-data-agent/
 
 ## ⚙️ Setup Instructions
 
+## 1️ Verify Required Software
+
+- Programming Language: <Python / Node / Java / etc>
+- Required Version: Exact Version
+- Package Manager: <pip / npm / etc>
+
 ### 1️⃣ Clone Repository
 
 ```bash
@@ -238,10 +244,3 @@ Example prompts:
 - Add multi-user access management  
 
 ---
-
-## 📌 Important Notes 
-- No hardcoded credentials  
-- Fully reproducible setup  
-- Single clear entry point  
-- Architecture diagram included  
-- Public repository available  
