@@ -88,11 +88,12 @@ Each agent communicates through a centralized orchestration layer.
 ```
 autonomous-data-agent/
 │
-├── README.md
-├── requirements.txt
-├── .env.example
-├── src/
-│   ├── main.py
+├── README.md              # Mandatory
+├── requirements.txt       # Mandatory (or package.json for Node projects)
+├── .env.example           # Mandatory
+│
+├── src/                   # Required if project contains source code
+│   ├── main.py            # Clear entry point (mandatory)
 │   ├── orchestrator.py
 │   ├── agents/
 │   │   ├── pipeline_agent.py
@@ -102,13 +103,28 @@ autonomous-data-agent/
 │   └── utils/
 │       └── config.py
 │
-├── architecture/
+├── architecture/          # Mandatory (must include architecture diagram)
 │   └── architecture.png
 │
-├── data/
-    └── sample_dataset.csv
-
+├── data/                  # Optional (if sample/test data is required)
+│   └── sample_dataset.csv
 ```
+
+---
+
+### 🚨 Mandatory Files for All Submissions
+
+The following files **must be present** in every submission:
+
+- `README.md`
+- `requirements.txt` (or `package.json` for Node projects)
+- `.env.example`
+- Clear entry point inside `src/`
+- `architecture/architecture.png` (or equivalent diagram)
+
+All other folders (e.g., `data/`, `tests/`, `notebooks/`, etc.) may vary depending on the project.
+
+Submissions missing mandatory files may not be evaluated.
 
 ---
 
